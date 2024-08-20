@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'
 
 # Initialize Firebase Admin SDK
-cred = credentials.Certificate("logingoogle.json")
+cred = credentials.Certificate("hddocs.json")
 firebase_admin.initialize_app(cred)
 
 @app.route('/')
